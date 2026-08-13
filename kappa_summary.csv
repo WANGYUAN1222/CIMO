@@ -1,0 +1,4 @@
+﻿metric,source,n,kappa,ci_lo,ci_hi,pct_agree,interpretation,label_agree
+Recall (Weighted Kappa),LLM-vs-LLM,5,0.7368,0.0743,1.3994,0.8,Substantial (0.60-0.80),
+Precision (Cohen's Kappa),LLM-vs-LLM,5,1.0,1.0,1.0,1.0,Almost perfect (≥ 0.80),"{'FP': 1.0, 'TP': 1.0, 'VN': 1.0}"
+Theme (Cohen's Kappa),Model-vs-Judge,5,0.75,0.1018,1.3982,0.8,Substantial (0.60-0.80),

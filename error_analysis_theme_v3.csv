@@ -1,0 +1,7 @@
+﻿theme,n_gold,Qwen3-235B_recall_strict,Qwen3-235B_avg_score,Qwen3-235B_recall_C,Qwen3-235B_recall_I,Qwen3-235B_recall_O,DeepSeek-V3.2_recall_strict,DeepSeek-V3.2_avg_score,DeepSeek-V3.2_recall_C,DeepSeek-V3.2_recall_I,DeepSeek-V3.2_recall_O,LLama3.3-70B_recall_strict,LLama3.3-70B_avg_score,LLama3.3-70B_recall_C,LLama3.3-70B_recall_I,LLama3.3-70B_recall_O,Rule-based_recall_strict,Rule-based_avg_score,Rule-based_recall_C,Rule-based_recall_I,Rule-based_recall_O
+T1: Governance mode,10,0.4,2.0,0.9,0.6,0.5,0.1,1.8,0.6,0.6,0.6,0.2,1.9,0.7,0.6,0.6,0.1,1.7,0.7,0.6,0.4
+T2: Network formation,9,0.1111,1.7778,0.5556,0.5556,0.6667,0.0,1.7778,0.6667,0.7778,0.3333,0.0,1.7778,0.4444,0.7778,0.5556,0.0,1.3333,0.6667,0.2222,0.4444
+T3: Interorg. relationships,36,0.25,2.1389,0.8889,0.6389,0.6111,0.1944,2.0556,0.8889,0.6667,0.5,0.1944,2.0833,0.8889,0.5833,0.6111,0.0278,1.7222,0.8611,0.6111,0.25
+T4: Strategic exploitation,20,0.1,1.7,0.75,0.4,0.55,0.15,1.75,0.8,0.6,0.35,0.2,1.8,0.8,0.45,0.55,0.0,1.55,0.85,0.4,0.3
+T5: Open innovation,17,0.1176,2.0,0.8824,0.5294,0.5882,0.4118,2.3529,0.7647,0.7647,0.8235,0.2353,2.0,0.7647,0.7059,0.5294,0.0,1.4706,0.5882,0.4706,0.4118
+T6: Operational practices,12,0.0,1.1667,0.3333,0.3333,0.5,0.0,1.25,0.5,0.4167,0.3333,0.0,1.1667,0.5,0.1667,0.5,0.0833,1.1667,0.4167,0.1667,0.5833

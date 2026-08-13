@@ -1,0 +1,42 @@
+Error Analysis Summary
+============================================================
+
+【主题难度排序（从难到易）】
+  T6: Operational practices           avg_score=1.1945/3.0  n=12
+  T4: Strategic exploitation          avg_score=1.7500/3.0  n=20
+  T2: Network formation               avg_score=1.7778/3.0  n=9
+  T1: Governance mode                 avg_score=1.9000/3.0  n=10
+  T3: Interorg. relationships         avg_score=2.0926/3.0  n=36
+  T5: Open innovation                 avg_score=2.1176/3.0  n=17
+
+最难主题: T6: Operational practices (avg=1.1945)
+最易主题: T5: Open innovation (avg=2.1176)
+难易差值: 0.9232 / 3.0
+
+【论文 Discussion 素材（数据驱动）】
+Theme-level analysis shows that T6: Operational practices was the most difficult theme for all LLMs (mean score = 1.19/3.0, n = 12), while T5: Open innovation achieved the highest scores (mean score = 2.12/3.0, n = 17). The gap between the hardest and easiest theme was 0.92 points on the 0–3 scale.
+
+【C/I/O 维度难度（各模型）】
+  Qwen3-235B: C=0.7692 I=0.5288 O=0.5769  最弱维度=I
+  DeepSeek-V3.2: C=0.7596 I=0.6442 O=0.5000  最弱维度=O
+  LLama3.3-70B: C=0.7500 I=0.5481 O=0.5673  最弱维度=I
+
+【各主题 × C/I/O 平均匹配率（LLM 均值）】
+  T1: Governance mode                 C: 0.7333
+  T1: Governance mode                 I: 0.6000
+  T1: Governance mode                 O: 0.5667
+  T2: Network formation               C: 0.5556
+  T2: Network formation               I: 0.7037
+  T2: Network formation               O: 0.5185
+  T3: Interorg. relationships         C: 0.8889
+  T3: Interorg. relationships         I: 0.6296
+  T3: Interorg. relationships         O: 0.5741
+  T4: Strategic exploitation          C: 0.7833
+  T4: Strategic exploitation          I: 0.4833
+  T4: Strategic exploitation          O: 0.4833
+  T5: Open innovation                 C: 0.8039
+  T5: Open innovation                 I: 0.6667
+  T5: Open innovation                 O: 0.6470
+  T6: Operational practices           C: 0.4444
+  T6: Operational practices           I: 0.3056
+  T6: Operational practices           O: 0.4444

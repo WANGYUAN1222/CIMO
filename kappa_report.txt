@@ -1,0 +1,38 @@
+==============================================================
+  CIMO Cohen's Kappa 评测报告
+==============================================================
+
+参考标准（Landis & Koch, 1977）：
+  < 0.00  Poor          0.00-0.20  Slight
+  0.20-0.40  Fair       0.40-0.60  Moderate
+  0.60-0.80  Substantial           ≥ 0.80  Almost perfect
+
+── Recall (Weighted Kappa) ──
+  来源       : LLM-vs-LLM
+  有效样本   : 5
+  一致率 PA  : 0.8000
+  Cohen's κ  : 0.7368  95%CI [0.0743, 1.3994]
+  解释       : Substantial (0.60-0.80)
+
+── Precision (Cohen's Kappa) ──
+  来源       : LLM-vs-LLM
+  有效样本   : 5
+  一致率 PA  : 1.0000
+  Cohen's κ  : 1.0000  95%CI [1.0000, 1.0000]
+  解释       : Almost perfect (≥ 0.80)
+  各类一致率 : {'FP': 1.0, 'TP': 1.0, 'VN': 1.0}
+
+── Theme (Cohen's Kappa) ──
+  来源       : Model-vs-Judge
+  有效样本   : 5
+  一致率 PA  : 0.8000
+  Cohen's κ  : 0.7500  95%CI [0.1018, 1.3982]
+  解释       : Substantial (0.60-0.80)
+  分 Theme ：
+
+输出文件：
+  ./kappa_recall_ratings.csv
+  ./kappa_precision_ratings.csv
+  ./kappa_theme_ratings.csv
+  ./kappa_report.txt
+==============================================================
